@@ -19,3 +19,16 @@ In the JavaScript application, use the languages object to access the value of R
 	// the value is read from Common.resx
 	var label = app.languages.Common.FirstNavigationButton;
 
+## Using data-* attributes
+
+#### data-localized-string
+	<h1 data-localized-string="Common.Title">Default Title</h1>
+
+#### data-localized-placeholder
+	<input type="text" data-localized-placeholder="Common.TypeUsernameHere" placeholder="Default placeholder..."/>
+
+#### data-localized-title
+	<img data-localized-title="Common.HeroImageTitle" title="Default title text"/>
+
+#### data-localized-value
+	<option data-localized-value="Common.FirstOption" value="Default first option text"/>
